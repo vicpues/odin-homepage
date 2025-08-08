@@ -1,6 +1,7 @@
 /* GENERAL */
 
 :root {
+  background-color: var(--bg-deep);
   color: var(--text);
   font-size: 18px;
 }

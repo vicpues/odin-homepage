@@ -1,7 +1,10 @@
 .hero {
+  background: linear-gradient(150deg, var(--primary) 40%, var(--bg-deep) 40%);
+  padding: 8vw;
+
   figure {
     position: relative;
-    margin: 8vw;
+    margin-bottom: 3rem;
     box-shadow: var(--double-shadow);
     height: 130vw;
   }
@@ -18,12 +21,14 @@
     overflow: hidden;
     color: #ffffff;
     font: var(--h-lrg);
+    font-weight: normal;
     text-shadow:
       0 0.3em 0.6em #000000bb,
       0 0 0.2em #000000ae;
   }
 
   h2 {
+    margin-bottom: 0.3em;
     font: var(--h-mid);
     text-align: center;
   }
