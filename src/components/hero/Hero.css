@@ -1,8 +1,9 @@
 .hero {
   figure {
     position: relative;
-    margin: 0 8vw;
-    height: 140vw;
+    margin: 8vw;
+    height: 130vw;
+    box-shadow: var(--double-shadow);
   }
 
   img {
@@ -11,6 +12,7 @@
   }
 
   h1 {
+    overflow: hidden;
     position: absolute;
     bottom: 0.3rem;
     left: 0.3rem;
@@ -18,9 +20,16 @@
     text-shadow:
       0 0.3em 0.6em #000000bb,
       0 0 0.2em #000000ae;
+    font: var(--h-lrg);
+  }
+
+  h2 {
+    font: var(--h-mid);
+    text-align: center;
   }
 
   p {
     font: var(--p-lrg);
+    color: var(--text-muted);
   }
 }

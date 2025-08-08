@@ -7,7 +7,11 @@ export default function Hero() {
       <figure>
         <img src={CrabHeroImage} alt="" />
         <figcaption>
-          <h1>Vic Pues</h1>
+          <h1>
+            Vic
+            <br />
+            Pues
+          </h1>
         </figcaption>
       </figure>
       <h2>About me</h2>
