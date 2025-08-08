@@ -2,8 +2,8 @@
   figure {
     position: relative;
     margin: 8vw;
-    height: 130vw;
     box-shadow: var(--double-shadow);
+    height: 130vw;
   }
 
   img {
@@ -12,15 +12,15 @@
   }
 
   h1 {
-    overflow: hidden;
     position: absolute;
     bottom: 0.3rem;
     left: 0.3rem;
+    overflow: hidden;
     color: #ffffff;
+    font: var(--h-lrg);
     text-shadow:
       0 0.3em 0.6em #000000bb,
       0 0 0.2em #000000ae;
-    font: var(--h-lrg);
   }
 
   h2 {
@@ -29,7 +29,7 @@
   }
 
   p {
-    font: var(--p-lrg);
     color: var(--text-muted);
+    font: var(--p-lrg);
   }
 }
