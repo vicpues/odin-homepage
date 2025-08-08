@@ -5,12 +5,38 @@
   --display-family: "playfair_display", Georgia, Times, serif;
 
   /* Typography */
-  --h-lrg: bold 4rem var(--display-family);
-  --h-mid: bold 2.5rem var(--display-family);
+  --h-lrg: bold 5rem var(--display-family);
+  --h-mid: bold 3rem var(--display-family);
   --h-sml: bold 1.5rem var(--display-family);
   --p-lrg: normal 1.125rem var(--body-family);
   --p-mid: normal 1rem var(--body-family);
   --p-sml: normal 0.875rem var(--body-family);
+
+  /* Effects */
+  --double-shadow: 0 1rem 2rem #00000053, 0 0.2rem 0.6rem #0000009f;
+}
+
+/* Colors */
+:root {
+  /* Light mode */
+  --bg-deep: oklch(0.92 0.03 264);
+  --bg-normal: oklch(0.96 0.03 264);
+  --bg-soft: oklch(1 0.03 264);
+  --text: oklch(0.15 0.06 264);
+  --text-muted: oklch(0.4 0.06 264);
+  --border: oklch(0.6 0.06 264);
+  --primary: oklch(0.6 0.11 220);
+}
+
+:root .dark {
+  /* Dark mode */
+  --bg-deep: oklch(0.1 0.03 264);
+  --bg-normal: oklch(0.15 0.03 264);
+  --bg-soft: oklch(0.2 0.03 264);
+  --text: oklch(0.96 0.06 264);
+  --text-muted: oklch(0.76 0.06 264);
+  --border: oklch(0.4 0.06 264);
+  --primary: oklch(0.5 0.11 220);
 }
 
 /* Font embeds */
