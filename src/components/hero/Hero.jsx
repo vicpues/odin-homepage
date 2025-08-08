@@ -1,5 +1,5 @@
 import "./Hero.css";
-import CrabHeroImage from "./assets/images/crab-hero.jpg";
+import CrabHeroImage from "../../assets/images/crab-hero.jpg";
 
 export default function Hero() {
   return (
