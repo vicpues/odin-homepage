@@ -12,6 +12,7 @@
   img {
     height: 100%;
     object-fit: cover;
+    object-position: 65% 50%;
   }
 
   h1 {
