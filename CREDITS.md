@@ -11,4 +11,5 @@
 
 ## Technologies used
 
-- [Webfont Generator](https://www.fontsquirrel.com/tools/webfont-generator). Via fontsquirrel.
+- [Webfont Generator](https://www.fontsquirrel.com/tools/webfont-generator) used to convert webfonts. Via fontsquirrel.
+- [UI Colors tool](https://www.iamsajid.com/ui-colors/) used to generate the color palette. By Sajid <3.
