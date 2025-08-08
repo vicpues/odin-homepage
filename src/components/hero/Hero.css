@@ -1,15 +1,26 @@
 .hero {
   figure {
     position: relative;
-    margin: 0 1rem;
+    margin: 0 8vw;
+    height: 140vw;
   }
 
-  figcaption {
-    z-index: 100;
+  img {
+    height: 100%;
+    object-fit: cover;
+  }
+
+  h1 {
     position: absolute;
-    bottom: 0.5em;
-    left: 1em;
+    bottom: 0.3rem;
+    left: 0.3rem;
     color: #ffffff;
-    text-shadow: 0 0.2em 0.2em #000000a6;
+    text-shadow:
+      0 0.3em 0.6em #000000bb,
+      0 0 0.2em #000000ae;
+  }
+
+  p {
+    font: var(--p-lrg);
   }
 }
