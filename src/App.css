@@ -2,17 +2,5 @@
 
 :root {
   font-size: 18px;
-}
-
-/* Elements */
-h1 {
-  font: var(--h-lrg);
-}
-
-h2 {
-  font: var(--h-mid);
-}
-
-h3 {
-  font: var(--h-sml);
+  color: var(--text);
 }
