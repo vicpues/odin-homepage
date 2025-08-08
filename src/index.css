@@ -5,7 +5,7 @@
   --display-family: "playfair_display", Georgia, Times, serif;
 
   /* Typography */
-  --h-lrg: bold 2.5rem var(--display-family);
+  --h-lrg: bold 4rem var(--display-family);
   --h-mid: bold 2rem var(--display-family);
   --h-sml: bold 1.5rem var(--display-family);
   --p-lrg: normal 1.125rem var(--body-family);
