@@ -38,4 +38,20 @@
     color: var(--text-muted);
     font: var(--p-lrg);
   }
+
+  .about-icons-container {
+    display: flex;
+    justify-content: center;
+    gap: 0.3em;
+    margin-top: 1em;
+  }
+
+  .about-link {
+    padding: 0.5em 0.8em;
+  }
+
+  .about-icon {
+    height: 2em;
+    fill: var(--text);
+  }
 }

@@ -25,14 +25,14 @@ export default function Hero() {
         distinctio velit.
       </p>
       <div className="about-icons-container">
-        <a href="" className="about-icon github">
-          <GithubIcon />
+        <a href="" className="about-link" aria-label="Mock link to github">
+          <GithubIcon className="about-icon github" />
         </a>
-        <a href="" className="about-icon linkedin">
-          <LinkedinIcon />
+        <a href="" className="about-link" aria-label="Mock link to linkedin">
+          <LinkedinIcon className="about-icon linkedin" />
         </a>
-        <a href="" className="about-icon twitter">
-          <TwitterIcon />
+        <a href="" className="about-link" aria-label="Mock link to twitter">
+          <TwitterIcon className="about-icon twitter" />
         </a>
       </div>
     </section>
