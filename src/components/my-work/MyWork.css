@@ -1,0 +1,15 @@
+#my-work {
+  .works-container {
+    --gap: 1rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+    gap: calc(var(--gap) + 0.8rem) var(--gap);
+    padding: var(--gap);
+    list-style: none;
+  }
+
+  h2 {
+    font: var(--h-mid);
+    text-align: center;
+  }
+}
