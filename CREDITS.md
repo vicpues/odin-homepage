@@ -7,6 +7,7 @@
 - [Roboto webfont](https://fonts.google.com/specimen/Roboto) by Christian Robertson, Paratype, Font Bureau. Via Google Fonts.
 - [Playfair Display webfont](https://fonts.google.com/specimen/Playfair+Display) by Claus Eggers Sørensen. Via Google Fonts.
 - [Hero crab image](https://www.pexels.com/photo/orange-crab-in-shallow-photo-584501/) adapted from a photo by Summer Li. Via pexels.
+- [Footer crab image](https://www.pexels.com/photo/red-crab-on-rock-2289652/) adapted from a foto by Francesco Ungaro. Via pexels.
 - [Icons](https://devicon.dev/) for Github, Twitter, and LinkedIn via Devicon.
 
 ## Technologies used

@@ -1,0 +1,17 @@
+#footer {
+  background-color: var(--primary);
+  color: #ffffff;
+
+  .contact {
+    padding: 2rem 1rem;
+  }
+
+  h2 {
+    font: var(--h-mid);
+    text-align: center;
+  }
+
+  p {
+    font: var(--p-mid);
+  }
+}
