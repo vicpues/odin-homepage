@@ -32,7 +32,7 @@
   }
 
   p {
-    padding: 0.4rem calc(var(--gap) + .5rem) var(--gap);
+    padding: 0.4rem calc(var(--gap) + 0.5rem) var(--gap);
     min-height: 7em;
     max-height: 9em;
     color: var(--text-muted);
