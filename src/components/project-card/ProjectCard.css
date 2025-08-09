@@ -21,7 +21,7 @@
   }
 
   .project-icon {
-    height: 1em;
+    height: 1.5rem;
   }
 
   img {
@@ -32,7 +32,7 @@
   }
 
   p {
-    padding: 0.4rem calc(2 * var(--gap)) var(--gap);
+    padding: 0.4rem calc(var(--gap) + .5rem) var(--gap);
     min-height: 7em;
     max-height: 9em;
     color: var(--text-muted);

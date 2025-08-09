@@ -6,9 +6,9 @@
 
   /* Typography */
   --h-lrg: bold 5rem var(--display-family);
-  --h-mid: bold 3rem var(--display-family);
-  --h-sml: bold 1.5rem var(--display-family);
-  --p-lrg: normal 1.25rem var(--body-family);
+  --h-mid: bold 2.5rem var(--display-family);
+  --h-sml: bold 1.15rem var(--display-family);
+  --p-lrg: normal 1.125rem var(--body-family);
   --p-mid: normal 1rem var(--body-family);
   --p-sml: normal 0.875rem var(--body-family);
 
