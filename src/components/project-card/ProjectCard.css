@@ -1,4 +1,5 @@
 .project-card {
+  box-shadow: var(--double-shadow);
   background-color: var(--bg-normal);
 
   .name-links-container {
