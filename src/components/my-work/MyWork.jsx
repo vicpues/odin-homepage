@@ -1,5 +1,5 @@
 import "./MyWork.css";
-import ProjectCard from "./ProjectCard";
+import ProjectCard from "../project-card/ProjectCard";
 
 export default function MyWork() {
   return (
