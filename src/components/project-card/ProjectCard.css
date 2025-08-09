@@ -12,6 +12,8 @@
 
   .project-name {
     flex: auto;
+    max-height: 3.5rem;
+    text-overflow: ellipsis;
   }
 
   .project-link {
@@ -30,8 +32,10 @@
 
   p {
     padding: 0.4rem calc(2 * var(--gap)) var(--gap);
-    height: 7em;
+    min-height: 7em;
+    max-height: 9em;
     color: var(--text-muted);
     font: var(--p-lrg);
+    text-overflow: ellipsis;
   }
 }
