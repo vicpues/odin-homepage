@@ -6,7 +6,7 @@ import TwitterIcon from "../../assets/icons/twitter.svg?react";
 
 export default function Hero() {
   return (
-    <section className="hero">
+    <section id="hero">
       <figure>
         <img src={CrabHeroImage} alt="" />
         <figcaption>

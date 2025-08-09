@@ -1,4 +1,4 @@
-.hero {
+#hero {
   background: linear-gradient(150deg, var(--primary) 40%, var(--bg-deep) 40%);
   padding: 8vw;
   width: 100%;
