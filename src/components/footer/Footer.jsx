@@ -7,7 +7,7 @@ export default function Footer() {
     <footer id="footer">
       <div className="contact">
         <h2>Contact me</h2>
-        <p>
+        <p className="message">
           Please get in touch if you think our work could be mutually beneficial
         </p>
         <p>

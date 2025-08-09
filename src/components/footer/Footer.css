@@ -8,11 +8,24 @@
   }
 
   h2 {
+    margin-bottom: 1rem;
     font: var(--h-mid);
     text-align: center;
   }
 
-  p {
+  .message {
+    margin-bottom: 1rem;
     font: var(--p-mid);
+  }
+
+  p {
+    margin-bottom: 1rem;
+    font: var(--p-sml);
+  }
+
+  img {
+    aspect-ratio: 0.6;
+    width: 100%;
+    object-fit: cover;
   }
 }
