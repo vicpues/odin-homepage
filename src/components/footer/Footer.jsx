@@ -1,6 +1,4 @@
-import GithubIcon from "../../assets/icons/github.svg?react";
-import LinkedinIcon from "../../assets/icons/linkedin.svg?react";
-import TwitterIcon from "../../assets/icons/twitter.svg?react";
+import ContactLinks from "../contact-links/ContactLinks";
 import CrabFooterImage from "../../assets/images/crab-footer.jpg";
 import "./Footer.css";
 
@@ -22,16 +20,7 @@ export default function Footer() {
           <br />
           vicpues.is.not.real@gmail.com
         </p>
-        <div className="about-icons-container">
-          <a className="about-link" href="">
-            <GithubIcon className="about-icon github" />
-          </a>
-          <a className="about-link" href=""></a>
-          <LinkedinIcon className="about-icon linkedin" />
-          <a className="about-link" href="">
-            <TwitterIcon className="about-icon twitter" />
-          </a>
-        </div>
+        <ContactLinks />
       </div>
       <img src={CrabFooterImage} alt="" />
     </footer>
