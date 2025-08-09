@@ -2,11 +2,23 @@
   background-color: var(--bg-normal);
 
   .name-links-container {
-    margin: 1rem 1rem 0 2rem;
+    display: flex;
+    align-items: center;
+    gap: 0.2rem;
+    margin: 0.7rem var(--gap) 0 calc(2.5 * var(--gap));
+    font: var(--h-sml);
   }
 
-  h3 {
-    font: var(--h-sml);
+  .project-name {
+    flex: auto;
+  }
+
+  .project-link {
+    padding: 0.5em 0.4em;
+  }
+
+  .project-icon {
+    height: 1em;
   }
 
   img {
@@ -16,7 +28,7 @@
   }
 
   p {
-    padding: var(--gap);
+    padding: 0.4rem calc(2 * var(--gap)) var(--gap);
     height: 7em;
     color: var(--text-muted);
     font: var(--p-lrg);
