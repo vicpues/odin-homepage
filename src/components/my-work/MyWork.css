@@ -1,4 +1,6 @@
 #my-work {
+  margin-top: var(--section-gap);
+
   .works-container {
     --gap: 1rem;
     display: grid;

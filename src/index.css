@@ -12,6 +12,9 @@
   --p-mid: normal 1rem var(--body-family);
   --p-sml: normal 0.875rem var(--body-family);
 
+  /* Spacing */
+  --section-gap: 4rem;
+
   /* Effects */
   --double-shadow: 0 1rem 2rem #0000000f, 0 0.2rem 0.6rem #0000002b;
 }

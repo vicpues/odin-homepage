@@ -1,4 +1,5 @@
 #footer {
+  margin-top: var(--section-gap);
   background-color: var(--primary);
   color: #ffffff;
 
