@@ -10,7 +10,9 @@ export default defineConfig({
         svgr(),
         setupPlugins({
             include: /^[^?]+\.jpg\?.*responsive.*$/,
-            styles: "inline",
+            quality: 90,
+            format: ["jpg", "avif", "webp"],
+            widths: [300, 600, 900, 1200, 1920],
         }),
     ],
 });
