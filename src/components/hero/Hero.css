@@ -9,6 +9,7 @@
     box-shadow: var(--double-shadow);
     aspect-ratio: 0.55;
     height: 25rem;
+    color: #ffffff;
   }
 
   picture,
@@ -26,7 +27,6 @@
     bottom: 0.3rem;
     left: 0.3rem;
     overflow: hidden;
-    color: #ffffff;
     font: var(--h-lrg);
     font-weight: normal;
     text-shadow:
@@ -41,7 +41,6 @@
   }
 
   p {
-    color: var(--text-muted);
     font: var(--p-lrg);
   }
 }
