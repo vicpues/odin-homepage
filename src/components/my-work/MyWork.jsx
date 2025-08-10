@@ -6,9 +6,9 @@ export default function MyWork() {
     <section id="my-work">
       <h2>My Work</h2>
       <ul className="works-container">
-        {projecInfo.map((project) => (
-          <ProjectCard {...project} />
-        ))}
+        {projecInfo.map((project, index) => {
+          return <ProjectCard key={index} {...project} />;
+        })}
       </ul>
     </section>
   );
