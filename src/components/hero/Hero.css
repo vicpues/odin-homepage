@@ -1,5 +1,5 @@
 #hero {
-  background: linear-gradient(150deg, var(--primary) 40%, var(--bg-deep) 40%);
+  background: linear-gradient(160deg, var(--primary) 55%, var(--bg-deep) 0);
   padding: 8vw;
   width: 100%;
 
@@ -41,6 +41,40 @@
   }
 
   p {
+    color: var(--text-muted);
     font: var(--p-lrg);
+  }
+}
+
+@media screen and (min-width: 500px) {
+  #hero {
+    padding: 8rem 2rem 3rem 3rem;
+
+    .hero-container {
+      box-shadow: var(--double-shadow);
+      background-color: var(--bg-normal);
+      padding: 6rem 2rem 2rem 2rem;
+    }
+
+    figure {
+      float: left;
+      margin: -12rem 1.5rem 1rem -3rem;
+    }
+
+    figure,
+    picture,
+    img {
+      position: relative;
+      width: 13rem;
+    }
+
+    h1 {
+      top: 0.6rem;
+      bottom: auto;
+      left: 9.3rem;
+      width: 7ch;
+      overflow: visible;
+      font-size: min(4.5rem, 14vw);
+    }
   }
 }
