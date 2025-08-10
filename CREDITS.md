@@ -10,6 +10,12 @@
 - [Footer crab image](https://www.pexels.com/photo/red-crab-on-rock-2289652/) adapted from a foto by Francesco Ungaro. Via pexels.
 - [Icons](https://devicon.dev/) for Github, Twitter, and LinkedIn via Devicon.
 - [Open in new tab icon](https://pictogrammers.com/library/mdi/icon/open-in-new/) from Material Design Icons. Via Pictogrammers.
+- [Octopus 1 image](https://www.pexels.com/photo/selective-focus-photography-of-octopus-3046629/) by Pia B. Via pexels.
+- [Octopus 2 image](https://www.pexels.com/photo/octopus-in-the-water-near-the-coral-reefs-5986729/) by Ann Antonova. Via pexels.
+- [Octopus 3 image](https://www.pexels.com/photo/octopus-in-an-aquarium-9004403/) by Jeffry S.S. Via pexels.
+- [Octopus 4 image](https://www.pexels.com/photo/photo-of-an-octopus-underwater-13851800/) by Ashley Christiano. Via pexels.
+- [Octopus 5 image](https://www.pexels.com/photo/close-up-of-octopus-9652994/) by yu zhang. Via pexels.
+- [Octopus 6 image](https://www.pexels.com/photo/octopus-in-black-and-white-10924818/) adapted from a photo by Jade Flesher. Via pexels.
 
 ## Technologies used
 
