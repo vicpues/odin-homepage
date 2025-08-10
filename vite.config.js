@@ -11,8 +11,8 @@ export default defineConfig({
         setupPlugins({
             include: /^[^?]+\.jpg\?.*responsive.*$/,
             quality: 90,
-            format: ["jpg", "avif", "webp"],
-            widths: [300, 600, 900, 1200, 1920],
+            format: ["jpg", "webp"],
+            w: [300, 600, 900, 1200, 1920],
         }),
     ],
 });
