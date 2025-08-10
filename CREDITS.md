@@ -21,3 +21,4 @@
 
 - [Webfont Generator](https://www.fontsquirrel.com/tools/webfont-generator) used to convert webfonts. Via fontsquirrel.
 - [UI Colors tool](https://www.iamsajid.com/ui-colors/) used to generate the color palette. By Sajid <3.
+- [Responsive Image library](https://github.com/simonihmig/responsive-image) used to rescale, convert and serve images. Insane find, someone please fund these guys.
