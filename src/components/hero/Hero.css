@@ -7,7 +7,8 @@
     position: relative;
     margin-bottom: 3rem;
     box-shadow: var(--double-shadow);
-    height: 130vw;
+    aspect-ratio: 0.5;
+    width: 100%;
   }
 
   img {
