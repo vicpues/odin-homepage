@@ -864,6 +864,18 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@responsive-image/react@npm:^1.1.0":
+  version: 1.1.0
+  resolution: "@responsive-image/react@npm:1.1.0"
+  dependencies:
+    "@responsive-image/core": "npm:^2.0.0"
+  peerDependencies:
+    react: 18.x || 19.x
+    react-dom: 18.x || 19.x
+  checksum: 10c0/b9dc7eb81765f918900e0fa2607503de317480efb04716ed30edac24ea85e741187b16003d6e8a23148bb33684a915bdca4ac87b5515eef162abc57cb8940af1
+  languageName: node
+  linkType: hard
+
 "@responsive-image/vite-plugin@npm:^2.0.0":
   version: 2.0.0
   resolution: "@responsive-image/vite-plugin@npm:2.0.0"
@@ -2731,6 +2743,7 @@ __metadata:
     "@eslint/compat": "npm:^1.3.2"
     "@eslint/js": "npm:^9.32.0"
     "@responsive-image/core": "npm:^2.0.0"
+    "@responsive-image/react": "npm:^1.1.0"
     "@responsive-image/vite-plugin": "npm:^2.0.0"
     "@types/react": "npm:^19.1.9"
     "@types/react-dom": "npm:^19.1.7"
