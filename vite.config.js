@@ -13,6 +13,7 @@ export default defineConfig({
             quality: 90,
             format: ["jpg", "webp"],
             w: [300, 600, 900, 1200, 1920],
+            lqip: { type: "inline" },
         }),
     ],
 });
