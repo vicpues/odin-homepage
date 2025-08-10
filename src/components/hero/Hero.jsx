@@ -7,7 +7,12 @@ export default function Hero() {
   return (
     <section id="hero">
       <figure>
-        <ResponsiveImage src={CrabHeroImage} alt="" className="hero-image" />
+        <ResponsiveImage
+          src={CrabHeroImage}
+          alt=""
+          className="hero-image"
+          loading="eager"
+        />
         <figcaption>
           <h1>
             Vic
