@@ -24,8 +24,8 @@
     height: 1.5rem;
   }
 
+  picture,
   img {
-    background-color: var(--bg-soft);
     aspect-ratio: 1.7;
     width: 100%;
     object-fit: cover;

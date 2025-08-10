@@ -1,6 +1,7 @@
 import "./ProjectCard.css";
 import GithubIcon from "../../assets/icons/github.svg?react";
 import OpenIcon from "../../assets/icons/open-in-new.svg?react";
+import { ResponsiveImage } from "@responsive-image/react";
 
 export default function ProjectCard({
   name,
@@ -12,7 +13,7 @@ export default function ProjectCard({
   return (
     <li className="card-container">
       <article className="project-card">
-        <img src="" alt="" />
+        <ResponsiveImage src={thumbnail} alt="" />
         <div className="name-links-container">
           <h3 className="project-name">{name}</h3>
           <a className="project-link" href={sourceLink}>
