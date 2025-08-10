@@ -23,9 +23,14 @@
     font: var(--p-sml);
   }
 
-  img {
+  picture,
+  .footer-image {
     aspect-ratio: 0.6;
     width: 100%;
+    height: auto;
+  }
+
+  .footer-image {
     object-fit: cover;
   }
 }

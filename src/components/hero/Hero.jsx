@@ -1,12 +1,13 @@
 import "./Hero.css";
-import CrabHeroImage from "../../assets/images/crab-hero.jpg";
+import { ResponsiveImage } from "@responsive-image/react";
+import CrabHeroImage from "../../assets/images/crab-hero.jpg?aspect=0.55&responsive";
 import ContactLinks from "../contact-links/ContactLinks";
 
 export default function Hero() {
   return (
     <section id="hero">
       <figure>
-        <img src={CrabHeroImage} alt="" />
+        <ResponsiveImage src={CrabHeroImage} alt="" className="hero-image" />
         <figcaption>
           <h1>
             Vic

@@ -7,14 +7,18 @@
     position: relative;
     margin-bottom: 3rem;
     box-shadow: var(--double-shadow);
-    aspect-ratio: 0.5;
-    width: 100%;
+    aspect-ratio: 0.55;
+    height: 25rem;
   }
 
-  img {
+  picture,
+  .hero-image {
     height: 100%;
+  }
+
+  .hero-image {
     object-fit: cover;
-    object-position: 65% 50%;
+    object-position: 70% 50%;
   }
 
   h1 {
