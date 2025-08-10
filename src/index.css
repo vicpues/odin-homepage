@@ -52,6 +52,7 @@
     url("assets/fonts/roboto/roboto.woff2") format("woff2"),
     url("assets/fonts/roboto/roboto.woff") format("woff");
   font-family: "roboto";
+  font-display: swap;
 }
 
 @font-face {
@@ -61,6 +62,7 @@
     url("assets/fonts/roboto/roboto-italic.woff2") format("woff2"),
     url("assets/fonts/roboto/roboto-italic.woff") format("woff");
   font-family: "roboto";
+  font-display: swap;
 }
 
 @font-face {
@@ -70,6 +72,7 @@
     url("assets/fonts/playfair/playfairdisplay.woff2") format("woff2"),
     url("assets/fonts/playfair/playfairdisplay.woff") format("woff");
   font-family: "playfair_display";
+  font-display: swap;
 }
 
 @font-face {
@@ -79,4 +82,5 @@
     url("assets/fonts/playfair/playfairdisplay-italic.woff2") format("woff2"),
     url("assets/fonts/playfair/playfairdisplay-italic.woff") format("woff");
   font-family: "playfair_display";
+  font-display: swap;
 }
