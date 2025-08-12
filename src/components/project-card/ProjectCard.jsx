@@ -16,10 +16,20 @@ export default function ProjectCard({
         <ResponsiveImage src={thumbnail} alt="" />
         <div className="name-links-container">
           <h3 className="project-name">{name}</h3>
-          <a className="project-link" href={sourceLink}>
+          <a
+            className="project-link"
+            target="_blank"
+            href={sourceLink}
+            aria-label={`Open ${name} on github`}
+          >
             <GithubIcon className="project-icon github" />
           </a>
-          <a className="project-link" href={liveLink}>
+          <a
+            className="project-link"
+            target="_blank"
+            href={liveLink}
+            aria-label={`Open ${name} in a new tab`}
+          >
             <OpenIcon className="project-icon open" />
           </a>
         </div>
