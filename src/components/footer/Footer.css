@@ -3,6 +3,11 @@
   background-color: var(--primary);
   color: #ffffff;
 
+  .footer-container {
+    margin-inline: auto;
+    max-width: 2000px;
+  }
+
   .contact {
     padding: 2rem 1rem;
   }
@@ -44,11 +49,13 @@
 
 @media screen and (min-width: 500px) {
   #footer {
-    display: grid;
-    grid-template-rows: 30rem;
-    grid-template-columns: 1fr 1fr;
-    align-items: start;
-    padding-bottom: 2rem;
+    .footer-container {
+      display: grid;
+      grid-template-rows: 30rem;
+      grid-template-columns: 1fr 1fr;
+      align-items: start;
+      padding-bottom: 2rem;
+    }
 
     .contact {
       padding: 5rem 0 0;
