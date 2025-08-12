@@ -34,3 +34,36 @@
     object-fit: cover;
   }
 }
+
+@media screen and (min-width: 500px) {
+  #footer {
+    display: grid;
+    grid-template-rows: 30rem;
+    grid-template-columns: 1fr 1fr;
+    align-items: start;
+    padding-bottom: 2rem;
+
+    .contact {
+      padding: 5rem 0 0;
+      padding-left: 2rem;
+    }
+
+    .links-container {
+      justify-content: left;
+    }
+
+    h2 {
+      text-align: left;
+    }
+
+    picture,
+    .footer-image {
+      width: 100%;
+      height: 100%;
+    }
+
+    .footer-image {
+      padding: 2rem;
+    }
+  }
+}
