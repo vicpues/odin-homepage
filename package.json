@@ -9,7 +9,11 @@
     "preview": "vite preview",
     "lint": "yarn prettier ; yarn eslint",
     "eslint": "eslint .",
-    "prettier": "prettier . --write --ignore-path .gitignore | grep -v \"unchanged\" | xargs ; postcss ./src/**/*.css --replace"
+    "prettier": "prettier . --write --ignore-path .gitignore | grep -v \"unchanged\" | xargs ; postcss ./src/**/*.css --replace",
+    "clean": "git rm -r --cached dist",
+    "predist": "git push origin --delete gh-pages ; yarn build",
+    "dist": "git add -f dist && git commit dist -m \"Release\" && git subtree push --prefix dist origin gh-pages",
+    "postdist": "yarn clean && git reset HEAD^"
   },
   "dependencies": {
     "@responsive-image/react": "^1.1.0",
