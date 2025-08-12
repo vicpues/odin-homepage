@@ -5,6 +5,7 @@ import { setupPlugins } from "@responsive-image/vite-plugin";
 
 // https://vite.dev/config/
 export default defineConfig({
+    base: "/odin-homepage/",
     plugins: [
         react(),
         svgr(),
