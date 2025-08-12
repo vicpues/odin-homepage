@@ -8,7 +8,7 @@
     gap: calc(var(--gap) + 0.8rem) var(--gap);
     margin: 0 auto;
     padding: var(--gap);
-    max-width: 1150px;
+    max-width: var(--max-section-width);
     list-style: none;
   }
 

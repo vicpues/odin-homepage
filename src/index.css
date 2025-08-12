@@ -14,6 +14,7 @@
 
   /* Spacing */
   --section-gap: 4rem;
+  --max-section-width: 1150px;
 
   /* Effects */
   --double-shadow: 0 1rem 2rem #0000000f, 0 0.2rem 0.6rem #0000002b;
