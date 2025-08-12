@@ -16,11 +16,11 @@ export default function Footer() {
           <br />
           Random Town, California 12345
         </p>
-        <p>
-          555-555-55555
+        <address>
+          <a href="tel:+NOT-A-REAL-PHONE">555-555-55555</a>
           <br />
-          vicpues.is.not.real@gmail.com
-        </p>
+          <a href="mailto:NOT-A-REAL-ADDRESS">vicpues.is.not.real@gmail.com</a>
+        </address>
         <ContactLinks />
       </div>
       <ResponsiveImage src={CrabFooterImage} alt="" className="footer-image" />
