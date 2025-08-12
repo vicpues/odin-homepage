@@ -12,7 +12,7 @@
     "prettier": "prettier . --write --ignore-path .gitignore | grep -v \"unchanged\" | xargs ; postcss ./src/**/*.css --replace",
     "clean": "git rm -r --cached dist",
     "predist": "git push origin --delete gh-pages ; yarn build",
-    "dist": "git add -f dist && git commit dist -m \"Release\" && git subtree push --prefix dist origin gh-pages",
+    "dist": "yarn predist ; git add -f dist && git commit dist -m \"Release\" && git subtree push --prefix dist origin gh-pages ; yarn postdist",
     "postdist": "yarn clean && git reset HEAD^"
   },
   "dependencies": {
