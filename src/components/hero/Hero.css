@@ -3,6 +3,11 @@
   padding: 8vw;
   width: 100%;
 
+  .hero-container {
+    margin: 0 auto;
+    max-width: 1150px;
+  }
+
   figure {
     position: relative;
     margin-bottom: 3rem;
@@ -85,6 +90,9 @@
 
 @media screen and (min-width: 1000px) {
   #hero {
+    background: linear-gradient(167deg, var(--primary) 55%, var(--bg-deep) 0);
+    padding-bottom: 5rem;
+
     .hero-container {
       padding-top: 2rem;
     }

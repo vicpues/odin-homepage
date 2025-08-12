@@ -6,7 +6,9 @@
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(30ch, 1fr));
     gap: calc(var(--gap) + 0.8rem) var(--gap);
+    margin: 0 auto;
     padding: var(--gap);
+    max-width: 1150px;
     list-style: none;
   }
 
