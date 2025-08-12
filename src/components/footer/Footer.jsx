@@ -1,6 +1,6 @@
 import ContactLinks from "../contact-links/ContactLinks";
 import { ResponsiveImage } from "@responsive-image/react";
-import CrabFooterImage from "../../assets/images/crab-footer.jpg?aspect=0.6&responsive";
+import CrabFooterImage from "../../assets/images/crab-footer.jpg?w=240;300;400;500;720;1000&aspect=0.6&responsive";
 import "./Footer.css";
 
 export default function Footer() {

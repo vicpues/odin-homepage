@@ -12,7 +12,9 @@ export default defineConfig({
             include: /^[^?]+\.jpg\?.*responsive.*$/,
             quality: 90,
             format: ["jpg", "webp"],
-            w: [240, 300, 400, 600, 900, 1200, 1920],
+            w: [240, 300, 400, 500],
+            styles: "external",
+            lqip: { type: "inline" },
         }),
     ],
 });
