@@ -18,9 +18,16 @@
     font: var(--p-mid);
   }
 
-  p {
+  p,
+  address {
     margin-bottom: 1rem;
     font: var(--p-sml);
+  }
+
+  address :link {
+    color: #ffffff;
+    text-align: center;
+    text-decoration: none;
   }
 
   picture,
@@ -64,6 +71,30 @@
 
     .footer-image {
       padding: 2rem;
+    }
+  }
+
+  address :link {
+    &::before {
+      --size: 1.4em;
+      display: inline-block;
+      position: relative;
+      top: calc(0.2 * var(--size));
+      filter: var(--white-filter); /* CSS is actually really simple /s */
+      margin-right: 0.5em;
+      background-size: contain;
+      background-repeat: no-repeat;
+      width: var(--size);
+      height: var(--size);
+      content: "";
+    }
+
+    &[href^="mailto"]::before {
+      background-image: url("../../assets/icons/email-outline.svg");
+    }
+
+    &[href^="tel"]::before {
+      background-image: url("../../assets/icons/phone-outline.svg");
     }
   }
 }
