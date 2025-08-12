@@ -1,5 +1,5 @@
 #hero {
-  background: linear-gradient(160deg, var(--primary) 55%, var(--bg-deep) 0);
+  background: linear-gradient(160deg, var(--primary) 55%, var(--bg-deep) 55.1%);
   padding: 8vw;
   width: 100%;
 
@@ -90,7 +90,11 @@
 
 @media screen and (min-width: 1000px) {
   #hero {
-    background: linear-gradient(167deg, var(--primary) 55%, var(--bg-deep) 0);
+    background: linear-gradient(
+      167deg,
+      var(--primary) 55%,
+      var(--bg-deep) 55.1%
+    );
     padding-bottom: 5rem;
 
     .hero-container {
