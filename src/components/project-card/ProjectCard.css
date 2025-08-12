@@ -8,6 +8,7 @@
     gap: 0.2rem;
     margin: 0.7rem var(--gap) 0 calc(1.5 * var(--gap));
     font: var(--h-sml);
+    fill: var(--text-muted);
   }
 
   .project-name {

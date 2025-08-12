@@ -20,10 +20,8 @@
   --double-shadow: 0 1rem 2rem #0000000f, 0 0.2rem 0.6rem #0000002b;
   --white-filter: brightness(0) saturate(100%) invert(98%) sepia(37%)
     saturate(184%) hue-rotate(188deg) brightness(117%) contrast(100%);
-}
 
-/* Colors */
-:root {
+  /* Colors */
   /* Light mode */
   --bg-deep: oklch(0.92 0.03 264);
   --bg-normal: oklch(0.96 0.03 264);
@@ -34,15 +32,19 @@
   --primary: oklch(0.5536 0.099401 217.8705);
 }
 
-:root .dark {
-  /* Dark mode */
-  --bg-deep: oklch(0.1 0.03 264);
-  --bg-normal: oklch(0.15 0.03 264);
-  --bg-soft: oklch(0.2 0.03 264);
-  --text: oklch(0.96 0.06 264);
-  --text-muted: oklch(0.76 0.06 264);
-  --border: oklch(0.4 0.06 264);
-  --primary: oklch(0.5 0.11 220);
+@media (prefers-color-scheme: dark) {
+  :root {
+    /* Dark mode */
+    --bg-deep: oklch(0.1 0.03 264);
+    --bg-normal: oklch(0.15 0.03 264);
+    --bg-soft: oklch(0.2 0.03 264);
+    --text: oklch(0.96 0.06 264);
+    --text-muted: oklch(0.76 0.06 264);
+    --border: oklch(0.4 0.06 264);
+    --primary: oklch(27.516% 0.05047 221.017);
+
+    --double-shadow: 0 1rem 2rem #00000028, 0 0.2rem 0.6rem #000000a3;
+  }
 }
 
 /* Font embeds */
